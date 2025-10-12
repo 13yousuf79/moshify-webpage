@@ -1,0 +1,32 @@
+body{
+    padding: 0 ;
+    margin: 0;
+    font-family: roboto,arial;
+    padding-top: 70px;
+    background-color: rgb(253, 253, 253);
+    transition: all 0s 0.3s;
+}
+@media (max-width:760px){
+body.show{
+    padding-top: 230px ;
+    transition: none;
+}
+}
+@media (min-width:761px){
+    body{
+        padding-top: 70px;
+        transition: none;
+    }
+}
+p{
+    margin: 0;
+}
+button{
+    font-family: roboto,arial;
+}
+h1{
+    margin: 0;
+}
+img{
+    display: block;
+}
