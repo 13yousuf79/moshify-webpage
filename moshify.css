@@ -21,6 +21,7 @@
 .left img {
     height: 40px;
     margin-left: 10px;
+    cursor:pointer;
 }
 
 a {
@@ -1054,4 +1055,5 @@ input:focus {
     .sixth-b .part-b .design>:nth-child(2)>:nth-child(2){
         font-size: 20px;
     }
+
 }
